@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#time-con {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#time {
+  border: solid;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 30px;
+  margin: 30px;
+  font-size: 40px;
+  font-family: 'digital-clock-font'
+
+
+}
+
+@font-face {
+  font-family: 'digital-clock-font';
+  src: url(digital-7.ttf);
+}
